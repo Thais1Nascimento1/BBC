@@ -1,0 +1,263 @@
+*{
+  box-sizing: border-box;
+  html
+}
+header{
+  /* border:1px solid black; */
+  height: 45px;
+  width:100%;
+  background-color: black;
+}
+
+header img{
+  float: left;
+  padding-bottom: 2%;
+width: 7%;
+height: 53px;
+margin-left: 2%;
+
+}
+header input{
+  width: 14%;
+}
+
+header nav li{
+  list-style: none;
+  float: left;
+  width:6%;
+  margin-left: 2%;
+  color:white;
+}
+header li a{
+  color:white;
+
+}
+
+header i{
+  float: left;
+  margin-left: 2%;
+  color:white;
+
+}
+
+.topHalf{
+  /* border:1px solid black; */
+  width:100%;
+  float:left;
+  background-color: rgb(231,233,225);
+  overflow: auto;
+  width: 100%
+}
+
+.welcome h3:first-of-type{
+  width: 85%;
+  float: left;
+  margin-left: 1%;
+}
+
+.welcome{
+  width:100%;
+  height:80px;
+  /* border:1px solid black; */
+  float: left;
+
+}
+.trumpCondemns{
+  height:328px;
+  width:50%;
+  /* border:1px solid black; */
+  float: left;
+  background-image: url(trumpCondemns.jpg);
+  background-size: 100% 100%;
+  margin-left: 1%;
+  s
+
+}
+.trumpCondemns h2{
+  color:white;
+  margin-top: 30%;
+  font-weight: 100;
+  margin-left: 1%;
+
+}
+.trumpCondemns p{
+  color:white;
+  margin-left: 2%;
+  font-size: 18px;
+}
+.trumpCondemns span{
+  margin-left: 2%;
+  color: white;
+  border-left: 2px solid red;
+}
+
+.topright{
+  width:49%;
+  height:328px;
+  /* border:1px solid black; */
+  float: left;
+}
+.firstSec, .secondSec, .thirdSec, .fourthSec{
+  width:48%;
+  /* border:1px solid black; */
+  height:153px;
+  float: left;
+  margin: 1%;
+
+}
+.firstSec{
+  background-image: url(compromise.jpg);
+  background-size: 100% 100%;
+}
+.firstSec h4{
+      margin-top: 18%;
+      color: white;
+      font-weight: 100;
+      margin-left: 2%;
+      font-size: 18px;
+}
+.firstSec span{
+  margin-left: 4%;
+  border-left: 2px blue solid;
+
+}
+.secondSec{
+  background-image: url(tillerson.jpg);
+  background-size: 100% 100%;
+}
+.secondSec h4{
+    margin-top: 22%;
+    color: white;
+    font-weight: 100;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.secondSec span{
+border-left: 2px blue solid;
+}
+
+.thirdSec{
+  background-image: url(oxford.jpg);
+  background-size: 100% 100%;
+}
+.thirdSec h4{
+  margin-top: 18%;
+  color: white;
+  font-weight: 100;
+  margin-left: 2%;
+  font-size: 18px;
+}
+.thirdSec span{
+  border-left: 2px blue solid;
+}
+.fourthSec{
+  background-image: url(offices.jpg);
+    background-size: 100% 100%;
+}
+.fourthSec h4{
+  margin-top: 22%;
+  color: white;
+  font-weight: 100;
+  margin-left: 2%;
+  font-size: 18px;
+
+}
+.fourthSec span{
+  border-left: 2px blue solid;
+}
+.bottomHalf{
+  width: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.bottomHalf img{
+  width:30%;
+  height:250px;
+  /* border:1px solid black; */
+  float: left;
+  margin-left:2%;
+}
+.bottomHalf h2{
+  margin-left: 3%;
+  margin-top: 3%;
+  border-left: red 3px solid;
+
+}
+
+footer{
+  border-bottom: 3px black solid;
+clear: both;
+
+}
+.topright span{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+header .fas{
+  display: none;
+}
+@media only screen and (max-width:767px){
+  header nav li{
+    display:none;
+  }
+  h1 img{
+    width:40%;
+    height:50px;
+  }
+
+
+  header .fas{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 8px;
+  }
+  input{
+    margin-left: 7%;
+  }
+  .trumpCondemns{
+    width:100%;
+  }
+  .topright{
+    width:100%;
+  }
+  .bottomHalf img{
+    width:100%;
+  }
+  .firstSec, .secondSec, .thirdSec, .fourthSec{
+    width:100%;
+  }
+
+
+}
+@media (min-width: 768px) and (max-width: 1023px){
+  header nav{
+    display:none;
+  }
+  header .fas{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 8px;
+  }
+  h1{
+    margin-left: 40%;
+  }
+  h1 img{
+    width:30%;
+    height:50px;
+  }
+  input{
+    margin-left: 5%;
+  }
+  .trumpCondemns{
+    width:100%;
+  }
+  .topright{
+    width:100%;
+  }
+  .firstSec, .secondSec, .thirdSec, .fourthSec{
+    width:48%;
+  }
+
+}
